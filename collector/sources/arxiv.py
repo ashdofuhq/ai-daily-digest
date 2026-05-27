@@ -1,8 +1,15 @@
 """Arxiv API — fetch recent papers from cs.AI, cs.LG, cs.CL, cs.CV."""
 
+import ssl
 import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
+
+_SSL = ssl.create_default_context()
+try:
+    _SSL = ssl._create_unverified_context()
+except AttributeError:
+    pass
 from datetime import datetime, timedelta, timezone
 
 ARXIV_API = "http://export.arxiv.org/api/query"
@@ -61,7 +68,7 @@ def fetch_arxiv():
 
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "AI-Daily-Digest/1.0"})
-            with urllib.request.urlopen(req, timeout=30) as resp:
+            with urllib.request.urlopen(req, timeout=30, context=_SSL) as resp:
                 data = resp.read().decode("utf-8")
         except Exception as e:
             print(f"[Arxiv] Failed to fetch {cat}: {e}")

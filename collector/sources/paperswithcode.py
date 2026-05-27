@@ -1,8 +1,15 @@
 """Papers With Code — trending papers."""
 
+import ssl
 import json
 import urllib.request
 from datetime import datetime, timezone
+
+_SSL = ssl.create_default_context()
+try:
+    _SSL = ssl._create_unverified_context()
+except AttributeError:
+    pass
 
 PWC_API = "https://paperswithcode.com/api/v1/papers/"
 
@@ -31,7 +38,7 @@ def fetch_paperswithcode():
             PWC_API,
             headers={"User-Agent": "AI-Daily-Digest/1.0", "Accept": "application/json"},
         )
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        with urllib.request.urlopen(req, timeout=30, context=_SSL) as resp:
             data = json.loads(resp.read().decode("utf-8"))
     except Exception as e:
         print(f"[PapersWithCode] Failed to fetch: {e}")

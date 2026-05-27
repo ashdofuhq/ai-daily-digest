@@ -1,0 +1,453 @@
+{
+  "2026-05-27": {
+    "date": "2026-05-27",
+    "total": 29,
+    "items": [
+      {
+        "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+        "summary": "1429 points, 1053 comments",
+        "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [
+          "Company"
+        ],
+        "stars": 1429,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 100.0,
+        "id": "c1fd309065e5"
+      },
+      {
+        "title": "Gemini 3.5 Flash",
+        "summary": "961 points, 657 comments",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [],
+        "stars": 961,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 83.6,
+        "id": "49791bcad158"
+      },
+      {
+        "title": "Talkie: a 13B vintage language model from 1930",
+        "summary": "773 points, 331 comments",
+        "url": "https://talkie-lm.com/introducing-talkie",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [
+          "LLM"
+        ],
+        "stars": 773,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 77.0,
+        "id": "ee9916ba79b6"
+      },
+      {
+        "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
+        "summary": "723 points, 280 comments",
+        "url": "https://esengine.github.io/DeepSeek-Reasonix/",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [
+          "Agent"
+        ],
+        "stars": 723,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 75.3,
+        "id": "897ab8e752d2"
+      },
+      {
+        "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+        "summary": "686 points, 252 comments",
+        "url": "https://github.com/antoinezambelli/forge",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [
+          "Agent"
+        ],
+        "stars": 686,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 74.0,
+        "id": "58a6ac64a0ab"
+      },
+      {
+        "title": "I have reimplemented Stable Diffusion 3.5 from scratch in pure PyTorch",
+        "summary": "481 points, 77 comments",
+        "url": "https://github.com/yousef-rafat/miniDiffusion",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [
+          "Vision"
+        ],
+        "stars": 481,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 66.8,
+        "id": "5888162fc550"
+      },
+      {
+        "title": "Meta's embrace of AI is making its employees miserable",
+        "summary": "463 points, 527 comments",
+        "url": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [
+          "Company"
+        ],
+        "stars": 463,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 66.2,
+        "id": "eedeb7dca244"
+      },
+      {
+        "title": "Gemini CLI will stop working from June 18, 2026",
+        "summary": "404 points, 210 comments",
+        "url": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [
+          "Tool"
+        ],
+        "stars": 404,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 64.1,
+        "id": "bf571ac25fb5"
+      },
+      {
+        "title": "A Visual Introduction to Machine Learning (2015)",
+        "summary": "399 points, 30 comments",
+        "url": "https://r2d3.us/visual-intro-to-machine-learning-part-1/",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [],
+        "stars": 399,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 64.0,
+        "id": "5ecfc92a125f"
+      },
+      {
+        "title": "College students drown out AI-praising commencement speeches with boos",
+        "summary": "379 points, 386 comments",
+        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/college-students-drown-out-ai-praising-commencement-speeches-with-boos-deal-with-it-one-speaker-fires-back-as-students-heckle-positive-pitches-for-ais-role",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [],
+        "stars": 379,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 63.3,
+        "id": "b1e03a0b23dd"
+      },
+      {
+        "title": "Mistral AI acquires Emmi AI",
+        "summary": "337 points, 98 comments",
+        "url": "https://www.emmi.ai/news/mistral-ai-acquires-emmi-ai",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [],
+        "stars": 337,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 61.8,
+        "id": "fd95ef61aea0"
+      },
+      {
+        "title": "Gemini Omni",
+        "summary": "323 points, 146 comments",
+        "url": "https://deepmind.google/models/gemini-omni/",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [],
+        "stars": 323,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 61.3,
+        "id": "c4ec628bad97"
+      },
+      {
+        "title": "Norway's 2 petabytes of Huawei flash storage and LLM training",
+        "summary": "320 points, 207 comments",
+        "url": "https://www.blocksandfiles.com/flash/2026/05/22/norways-2-petabytes-of-huawei-flash-storage-and-llm-training/5244910",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [
+          "LLM",
+          "RAG"
+        ],
+        "stars": 320,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 61.2,
+        "id": "b5ceb3d79ded"
+      },
+      {
+        "title": "Maryland citizens hit with $2B power grid upgrade for out-of-state AI",
+        "summary": "319 points, 201 comments",
+        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [],
+        "stars": 319,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 61.2,
+        "id": "4b22450bc576"
+      },
+      {
+        "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
+        "summary": "284 points, 193 comments",
+        "url": "https://arxiv.org/abs/2605.06445",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [
+          "LLM",
+          "Agent",
+          "RAG",
+          "Coding"
+        ],
+        "stars": 284,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 59.9,
+        "id": "85405ea223c1"
+      },
+      {
+        "title": "The four-day workweek in Australia: insights from early adopters of 100:80:100",
+        "summary": "256 points, 255 comments",
+        "url": "https://scienceaim.com/australia-just-proved-the-four-day-work-week-works-here-is-what-the-data-actually-says/",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [],
+        "stars": 256,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 59.0,
+        "id": "c5e6bf3af9c5"
+      },
+      {
+        "title": "Show HN: Anki AI Utils",
+        "summary": "253 points, 43 comments",
+        "url": "https://github.com/thiswillbeyourgithub/AnkiAIUtils",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [],
+        "stars": 253,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 58.9,
+        "id": "8227edc2316f"
+      },
+      {
+        "title": "A sleep-like consolidation mechanism for LLMs",
+        "summary": "202 points, 134 comments",
+        "url": "https://arxiv.org/abs/2605.26099",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [
+          "LLM"
+        ],
+        "stars": 202,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 57.1,
+        "id": "97533f7872f8"
+      },
+      {
+        "title": "Emotion concepts and their function in a large language model",
+        "summary": "191 points, 204 comments",
+        "url": "https://www.anthropic.com/research/emotion-concepts-function",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [
+          "LLM"
+        ],
+        "stars": 191,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 56.7,
+        "id": "5827f50b97a6"
+      },
+      {
+        "title": "hardikpandya/stop-slop",
+        "summary": "A skill file for removing AI tells from prose",
+        "url": "https://github.com/hardikpandya/stop-slop",
+        "source": "github",
+        "source_label": "GitHub",
+        "tags": [],
+        "stars": 0,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 38.0,
+        "id": "0d10ee09f89d"
+      },
+      {
+        "title": "affaan-m/ECC",
+        "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "url": "https://github.com/affaan-m/ECC",
+        "source": "github",
+        "source_label": "GitHub",
+        "tags": [
+          "Agent",
+          "Code"
+        ],
+        "stars": 0,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 38.0,
+        "id": "d26725c6e1e6"
+      },
+      {
+        "title": "anthropics/knowledge-work-plugins",
+        "summary": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "source": "github",
+        "source_label": "GitHub",
+        "tags": [],
+        "stars": 0,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 38.0,
+        "id": "c5511552a3ed"
+      },
+      {
+        "title": "Leonxlnx/taste-skill",
+        "summary": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+        "url": "https://github.com/Leonxlnx/taste-skill",
+        "source": "github",
+        "source_label": "GitHub",
+        "tags": [],
+        "stars": 0,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 38.0,
+        "id": "f16158aeaf35"
+      },
+      {
+        "title": "mukul975/Anthropic-Cybersecurity-Skills",
+        "summary": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND &amp; NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 26 security domains · Apache 2.0",
+        "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+        "source": "github",
+        "source_label": "GitHub",
+        "tags": [
+          "Agent",
+          "Tool",
+          "Code"
+        ],
+        "stars": 0,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 38.0,
+        "id": "19510c9a0455"
+      },
+      {
+        "title": "twentyhq/twenty",
+        "summary": "The open alternative to Salesforce, designed for AI.",
+        "url": "https://github.com/twentyhq/twenty",
+        "source": "github",
+        "source_label": "GitHub",
+        "tags": [],
+        "stars": 0,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 38.0,
+        "id": "131b953324a8"
+      },
+      {
+        "title": "Yeachan-Heo/oh-my-claudecode",
+        "summary": "Teams-first Multi-agent orchestration for Claude Code",
+        "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+        "source": "github",
+        "source_label": "GitHub",
+        "tags": [
+          "Agent",
+          "Code"
+        ],
+        "stars": 0,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 38.0,
+        "id": "8934733b8413"
+      },
+      {
+        "title": "DigitalPlatDev/FreeDomain",
+        "summary": "DigitalPlat FreeDomain: Free Domain For Everyone",
+        "url": "https://github.com/DigitalPlatDev/FreeDomain",
+        "source": "github",
+        "source_label": "GitHub",
+        "tags": [],
+        "stars": 0,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 38.0,
+        "id": "e872f29ba494"
+      },
+      {
+        "title": "obra/superpowers",
+        "summary": "An agentic skills framework &amp; software development methodology that works.",
+        "url": "https://github.com/obra/superpowers",
+        "source": "github",
+        "source_label": "GitHub",
+        "tags": [
+          "Agent",
+          "Tool"
+        ],
+        "stars": 0,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 38.0,
+        "id": "ea3acc696720"
+      },
+      {
+        "title": "moeru-ai/airi",
+        "summary": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+        "url": "https://github.com/moeru-ai/airi",
+        "source": "github",
+        "source_label": "GitHub",
+        "tags": [],
+        "stars": 0,
+        "date": "2026-05-27",
+        "authors": "",
+        "language": "en",
+        "hot_score": 38.0,
+        "id": "f589da13dcf4"
+      }
+    ]
+  }
+}

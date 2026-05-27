@@ -1,9 +1,16 @@
 """Hacker News — AI-related hot posts via Algolia HN Search API."""
 
+import ssl
 import json
 import urllib.request
 import urllib.parse
 from datetime import datetime, timezone
+
+_SSL = ssl.create_default_context()
+try:
+    _SSL = ssl._create_unverified_context()
+except AttributeError:
+    pass
 
 HN_SEARCH = "https://hn.algolia.com/api/v1/search_by_date"
 
@@ -14,20 +21,12 @@ AI_QUERIES = [
     '"language model"',
     "gpt",
     "chatgpt",
-    "claude",
     "gemini",
     '"stable diffusion"',
-    '"image generation"',
-    "RAG",
     "agent",
-    "transformer",
-    '"deep learning"',
-    '"neural network"',
     "openai",
-    "anthropic",
     "llama",
     "mistral",
-    "copilot",
 ]
 
 TAG_KW = {
@@ -49,7 +48,7 @@ def fetch_hackernews():
     all_hits = []
     seen_ids = set()
 
-    for query in AI_QUERIES[:10]:
+    for query in AI_QUERIES:
         params = urllib.parse.urlencode(
             {
                 "query": query,
@@ -62,7 +61,7 @@ def fetch_hackernews():
 
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "AI-Daily-Digest/1.0"})
-            with urllib.request.urlopen(req, timeout=30) as resp:
+            with urllib.request.urlopen(req, timeout=30, context=_SSL) as resp:
                 data = json.loads(resp.read().decode("utf-8"))
         except Exception as e:
             print(f"[HN] Failed query '{query}': {e}")
@@ -90,7 +89,7 @@ def fetch_hackernews():
             all_hits.append(
                 {
                     "title": title,
-                    "summary": "",
+                    "summary": f"{points} points, {num_comments} comments",
                     "url": url,
                     "source": "hackernews",
                     "source_label": "Hacker News",

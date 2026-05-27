@@ -1,9 +1,16 @@
 """Hugging Face Daily Papers — scrape the daily papers page."""
 
+import ssl
 import json
 import urllib.request
 import re
 from datetime import datetime, timezone
+
+_SSL = ssl.create_default_context()
+try:
+    _SSL = ssl._create_unverified_context()
+except AttributeError:
+    pass
 
 HF_DAILY = "https://huggingface.co/papers"
 
@@ -25,57 +32,6 @@ TAG_KW = {
 }
 
 
-def _parse_papers(html):
-    papers = []
-    # Match paper cards: title links, upvotes, abstracts
-    pattern = re.compile(
-        r'<article[^>]*>.*?<a[^>]*href="(/papers/[^"]+)"[^>]*>(.*?)</a>.*?'
-        r'<span[^>]*>(.*?)</span>.*?'
-        r"</article>",
-        re.DOTALL,
-    )
-
-    matches = pattern.findall(html)
-    for url_path, raw_title, _ in matches:
-        title = re.sub(r"<[^>]+>", "", raw_title).strip()
-        if title and url_path:
-            papers.append(
-                {
-                    "title": title,
-                    "url": f"https://huggingface.co{url_path}",
-                    "upvotes": 0,
-                }
-            )
-
-    # Alternative: look for paper info in JSON-LD or next.js data
-    if not papers:
-        script_pattern = re.compile(
-            r'<script[^>]*id="__NEXT_DATA__"[^>]*>(.*?)</script>', re.DOTALL
-        )
-        script_match = script_pattern.search(html)
-        if script_match:
-            try:
-                data = json.loads(script_match.group(1))
-                props = (
-                    data.get("props", {})
-                    .get("pageProps", {})
-                )
-                daily_papers = props.get("dailyPapers", [])
-                for p in daily_papers:
-                    paper_data = p.get("paper", p)
-                    papers.append(
-                        {
-                            "title": paper_data.get("title", ""),
-                            "url": f"https://huggingface.co/papers/{paper_data.get('id', '')}",
-                            "upvotes": p.get("upvotes", 0),
-                        }
-                    )
-            except (json.JSONDecodeError, KeyError) as e:
-                print(f"[HF] JSON parse error: {e}")
-
-    return papers
-
-
 def fetch_huggingface():
     try:
         req = urllib.request.Request(
@@ -84,17 +40,51 @@ def fetch_huggingface():
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
             },
         )
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        with urllib.request.urlopen(req, timeout=30, context=_SSL) as resp:
             html = resp.read().decode("utf-8")
     except Exception as e:
         print(f"[HuggingFace] Failed to fetch: {e}")
         return []
 
-    items = _parse_papers(html)
+    # Try to extract papers from the Next.js data payload
+    papers = []
+    script_pattern = re.compile(
+        r'<script[^>]*id="__NEXT_DATA__"[^>]*>(.*?)</script>', re.DOTALL
+    )
+    script_match = script_pattern.search(html)
+    if script_match:
+        try:
+            data = json.loads(script_match.group(1))
+            props = data.get("props", {}).get("pageProps", {})
+            daily_papers = props.get("dailyPapers", [])
+            for p in daily_papers:
+                paper_data = p.get("paper", p)
+                papers.append(
+                    {
+                        "title": paper_data.get("title", ""),
+                        "url": f"https://huggingface.co/papers/{paper_data.get('id', '')}",
+                        "upvotes": p.get("upvotes", 0),
+                    }
+                )
+        except (json.JSONDecodeError, KeyError) as e:
+            print(f"[HF] JSON parse error: {e}")
+
+    if not papers:
+        pattern = re.compile(
+            r'<article[^>]*>.*?<a[^>]*href="(/papers/[^"]+)"[^>]*>(.*?)</a>',
+            re.DOTALL,
+        )
+        for url_path, raw_title in pattern.findall(html):
+            title = re.sub(r"<[^>]+>", "", raw_title).strip()
+            if title and url_path:
+                papers.append(
+                    {"title": title, "url": f"https://huggingface.co{url_path}", "upvotes": 0}
+                )
+
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     results = []
 
-    for item in items:
+    for item in papers[:20]:
         title = item["title"]
         tags = []
         title_lower = title.lower()

@@ -1,9 +1,15 @@
 """GitHub Trending — AI/ML repositories via GitHub trending page."""
 
-import json
+import ssl
 import urllib.request
 import re
 from datetime import datetime, timezone
+
+_SSL = ssl.create_default_context()
+try:
+    _SSL = ssl._create_unverified_context()
+except AttributeError:
+    pass
 
 GH_TRENDING = "https://github.com/trending?since=daily"
 AI_TOPICS = {
@@ -68,7 +74,7 @@ def fetch_github():
             GH_TRENDING,
             headers={"User-Agent": "Mozilla/5.0", "Accept": "text/html"},
         )
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        with urllib.request.urlopen(req, timeout=30, context=_SSL) as resp:
             html = resp.read().decode("utf-8")
     except Exception as e:
         print(f"[GitHub] Failed to fetch trending: {e}")
