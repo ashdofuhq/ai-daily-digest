@@ -1,0 +1,3 @@
+# AI Daily Digest — Python dependencies
+# All stdlib-only! No external packages needed.
+# urllib.request, xml.etree, json, re, hashlib are all built-in.
