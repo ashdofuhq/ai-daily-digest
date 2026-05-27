@@ -16,7 +16,7 @@ from sources import (
 )
 from dedup import deduplicate
 
-DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
+DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "docs", "data")
 
 
 def ensure_data_dir():

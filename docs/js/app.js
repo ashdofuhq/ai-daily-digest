@@ -42,7 +42,7 @@ async function loadData() {
   dom.emptyState.classList.add("hidden");
 
   try {
-    const resp = await fetch("../data/latest.json");
+    const resp = await fetch("data/latest.json");
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const json = await resp.json();
     state.allItems = json.items || [];
@@ -50,7 +50,7 @@ async function loadData() {
   } catch {
     // If latest.json not available, try archive
     try {
-      const resp = await fetch("../data/archive.json");
+      const resp = await fetch("data/archive.json");
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
       const archive = await resp.json();
       const dates = Object.keys(archive).sort().reverse();
