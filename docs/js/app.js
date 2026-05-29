@@ -83,11 +83,12 @@ function createCard(item) {
   card.className = "card";
   card.addEventListener("click", () => window.open(item.url, "_blank", "noopener"));
 
-  // Hot score level
-  let hotClass = "";
-  if (item.hot_score >= 80) hotClass = "";
-  else if (item.hot_score >= 50) hotClass = "medium";
-  else hotClass = "low";
+  // Learning score level
+  const ls = item.learning_score || item.hot_score || 0;
+  let learnClass = "";
+  if (ls >= 70) learnClass = "";
+  else if (ls >= 45) learnClass = "medium";
+  else learnClass = "low";
 
   // Source badge
   const sourceClass = `source-${item.source}`;
@@ -113,7 +114,7 @@ function createCard(item) {
   card.innerHTML = `
     <div class="card-meta">
       <span class="card-source ${sourceClass}">${escapeHtml(item.source_label)}</span>
-      ${item.hot_score > 0 ? `<span class="card-hot ${hotClass}">${item.hot_score}°</span>` : ""}
+      ${ls > 0 ? `<span class="card-learn ${learnClass}">📖 ${ls}</span>` : ""}
     </div>
     <h3 class="card-title">${escapeHtml(item.title)}</h3>
     ${item.summary ? `<p class="card-summary">${escapeHtml(item.summary)}</p>` : ""}

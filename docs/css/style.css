@@ -34,10 +34,10 @@
   --c-paperswithcode: #06b6d4;
   --c-hackernews: #f97316;
 
-  /* Hot score */
-  --hot-high: #ff6b6b;
-  --hot-mid: #ffd93d;
-  --hot-low: #6c5ce7;
+  /* Learning score */
+  --learn-high: #10b981;
+  --learn-mid: #6366f1;
+  --learn-low: #6b7280;
 }
 
 [data-theme="light"] {
@@ -368,17 +368,17 @@ body {
 .source-paperswithcode { background: rgba(6, 182, 212, 0.15); color: var(--c-paperswithcode); }
 .source-hackernews { background: rgba(249, 115, 22, 0.15); color: var(--c-hackernews); }
 
-.card-hot {
+.card-learn {
   font-size: 0.72rem;
   font-weight: 700;
   padding: 3px 10px;
   border-radius: 14px;
-  background: rgba(255, 107, 107, 0.12);
-  color: var(--hot-high);
+  background: rgba(16, 185, 129, 0.12);
+  color: var(--learn-high);
 }
 
-.card-hot.medium { background: rgba(255, 217, 61, 0.12); color: var(--hot-mid); }
-.card-hot.low { background: rgba(108, 92, 231, 0.12); color: var(--hot-low); }
+.card-learn.medium { background: rgba(99, 102, 241, 0.12); color: var(--learn-mid); }
+.card-learn.low { background: rgba(107, 114, 128, 0.12); color: var(--learn-low); }
 
 .card-title {
   font-size: 0.98rem;

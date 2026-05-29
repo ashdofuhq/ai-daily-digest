@@ -1,4 +1,513 @@
 {
+  "2026-05-29": {
+    "date": "2026-05-29",
+    "total": 31,
+    "items": [
+      {
+        "title": "Talkie: a 13B vintage language model from 1930",
+        "summary": "773 points, 331 comments",
+        "url": "https://talkie-lm.com/introducing-talkie",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [
+          "LLM"
+        ],
+        "stars": 773,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 88.4,
+        "id": "1a89a47479bc"
+      },
+      {
+        "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+        "summary": "687 points, 252 comments",
+        "url": "https://github.com/antoinezambelli/forge",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [
+          "Agent"
+        ],
+        "stars": 687,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 86.8,
+        "id": "2473148b0519"
+      },
+      {
+        "title": "I think Anthropic and OpenAI have found product-market fit",
+        "summary": "1074 points, 1205 comments",
+        "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [
+          "Company"
+        ],
+        "stars": 1074,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 83.5,
+        "id": "2aa09ab2f68d"
+      },
+      {
+        "title": "Disagreement among frontier LLMs on real-world fact-checks",
+        "summary": "484 points, 339 comments",
+        "url": "https://lenz.io/research/llm-disagreement",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [
+          "LLM"
+        ],
+        "stars": 484,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 83.0,
+        "id": "aac9e97e0b75"
+      },
+      {
+        "title": "Gemini 3.5 Flash",
+        "summary": "962 points, 658 comments",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [],
+        "stars": 962,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 82.9,
+        "id": "36c3deea05ed"
+      },
+      {
+        "title": "harry0703/MoneyPrinterTurbo",
+        "summary": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+        "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+        "source": "github",
+        "source_label": "GitHub",
+        "tags": [
+          "LLM"
+        ],
+        "stars": 0,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 80.0,
+        "id": "adab0a34c36a"
+      },
+      {
+        "title": "revfactory/harness",
+        "summary": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+        "url": "https://github.com/revfactory/harness",
+        "source": "github",
+        "source_label": "GitHub",
+        "tags": [
+          "Agent"
+        ],
+        "stars": 0,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 80.0,
+        "id": "3720f5168145"
+      },
+      {
+        "title": "anthropics/skills",
+        "summary": "Public repository for Agent Skills",
+        "url": "https://github.com/anthropics/skills",
+        "source": "github",
+        "source_label": "GitHub",
+        "tags": [
+          "Agent"
+        ],
+        "stars": 0,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 80.0,
+        "id": "378a0b946a56"
+      },
+      {
+        "title": "Gemini CLI will stop working from June 18, 2026",
+        "summary": "405 points, 210 comments",
+        "url": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [
+          "Tool"
+        ],
+        "stars": 405,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 80.0,
+        "id": "b225ec19fc21"
+      },
+      {
+        "title": "affaan-m/ECC",
+        "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "url": "https://github.com/affaan-m/ECC",
+        "source": "github",
+        "source_label": "GitHub",
+        "tags": [
+          "Agent",
+          "Code"
+        ],
+        "stars": 0,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 79.6,
+        "id": "ba5c9995b195"
+      },
+      {
+        "title": "unclecode/crawl4ai",
+        "summary": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler &amp; Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+        "url": "https://github.com/unclecode/crawl4ai",
+        "source": "github",
+        "source_label": "GitHub",
+        "tags": [
+          "LLM",
+          "Code"
+        ],
+        "stars": 0,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 79.6,
+        "id": "6cb07a383469"
+      },
+      {
+        "title": "obra/superpowers",
+        "summary": "An agentic skills framework &amp; software development methodology that works.",
+        "url": "https://github.com/obra/superpowers",
+        "source": "github",
+        "source_label": "GitHub",
+        "tags": [
+          "Agent",
+          "Tool"
+        ],
+        "stars": 0,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 79.2,
+        "id": "8ad0eec8f955"
+      },
+      {
+        "title": "Show HN: Continue? Y/N: A 60-second game about AI agent permission fatigue",
+        "summary": "266 points, 115 comments",
+        "url": "https://llmgame.scalex.dev",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [
+          "Agent"
+        ],
+        "stars": 266,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 79.0,
+        "id": "22a89ff77a98"
+      },
+      {
+        "title": "Various LLM Smells",
+        "summary": "256 points, 188 comments",
+        "url": "https://shvbsle.in/various-llm-smells/",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [
+          "LLM"
+        ],
+        "stars": 256,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 78.8,
+        "id": "c3aed2a89c11"
+      },
+      {
+        "title": "Emotion concepts and their function in a large language model",
+        "summary": "191 points, 204 comments",
+        "url": "https://www.anthropic.com/research/emotion-concepts-function",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [
+          "LLM"
+        ],
+        "stars": 191,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 77.6,
+        "id": "91a40d38d35d"
+      },
+      {
+        "title": "OpenAI and Government of Malta partner to roll out ChatGPT Plus to all citizens",
+        "summary": "333 points, 338 comments",
+        "url": "https://openai.com/index/malta-chatgpt-plus-partnership/",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [
+          "LLM",
+          "Company"
+        ],
+        "stars": 333,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 75.0,
+        "id": "3987bba2eed2"
+      },
+      {
+        "title": "I have reimplemented Stable Diffusion 3.5 from scratch in pure PyTorch",
+        "summary": "481 points, 77 comments",
+        "url": "https://github.com/yousef-rafat/miniDiffusion",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [
+          "Vision"
+        ],
+        "stars": 481,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 74.0,
+        "id": "74072b14a06c"
+      },
+      {
+        "title": "A Visual Introduction to Machine Learning (2015)",
+        "summary": "399 points, 30 comments",
+        "url": "https://r2d3.us/visual-intro-to-machine-learning-part-1/",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [],
+        "stars": 399,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 72.4,
+        "id": "2571af847e1a"
+      },
+      {
+        "title": "GitHub bans security researcher who posted zero-day Windows exploits",
+        "summary": "233 points, 119 comments",
+        "url": "https://www.tomshardware.com/tech-industry/cyber-security/microsofts-github-bans-security-researcher-who-posted-zero-day-windows-exploits-because-company-ruined-their-life-expert-claims-action-is-vindictive-and-promises-further-retaliation",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [
+          "Safety"
+        ],
+        "stars": 233,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 72.3,
+        "id": "ce1f7b2dd560"
+      },
+      {
+        "title": "Show HN: Freenet, a peer-to-peer platform for decentralized apps",
+        "summary": "388 points, 269 comments",
+        "url": "https://freenet.org/",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [],
+        "stars": 388,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 72.2,
+        "id": "13233eb3d5db"
+      },
+      {
+        "title": "College students drown out AI-praising commencement speeches with boos",
+        "summary": "379 points, 386 comments",
+        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/college-students-drown-out-ai-praising-commencement-speeches-with-boos-deal-with-it-one-speaker-fires-back-as-students-heckle-positive-pitches-for-ais-role",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [],
+        "stars": 379,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 72.1,
+        "id": "a23234aeedb4"
+      },
+      {
+        "title": "Mistral AI acquires Emmi AI",
+        "summary": "337 points, 98 comments",
+        "url": "https://www.emmi.ai/news/mistral-ai-acquires-emmi-ai",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [],
+        "stars": 337,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 71.3,
+        "id": "6bf80a168d38"
+      },
+      {
+        "title": "Leonxlnx/taste-skill",
+        "summary": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+        "url": "https://github.com/Leonxlnx/taste-skill",
+        "source": "github",
+        "source_label": "GitHub",
+        "tags": [],
+        "stars": 0,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 71.0,
+        "id": "05045ee8fb96"
+      },
+      {
+        "title": "hardikpandya/stop-slop",
+        "summary": "A skill file for removing AI tells from prose",
+        "url": "https://github.com/hardikpandya/stop-slop",
+        "source": "github",
+        "source_label": "GitHub",
+        "tags": [],
+        "stars": 0,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 71.0,
+        "id": "ef074f077c00"
+      },
+      {
+        "title": "twentyhq/twenty",
+        "summary": "The open alternative to Salesforce, designed for AI.",
+        "url": "https://github.com/twentyhq/twenty",
+        "source": "github",
+        "source_label": "GitHub",
+        "tags": [],
+        "stars": 0,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 71.0,
+        "id": "563139dfa0ca"
+      },
+      {
+        "title": "DigitalPlatDev/FreeDomain",
+        "summary": "DigitalPlat FreeDomain: Free Domain For Everyone",
+        "url": "https://github.com/DigitalPlatDev/FreeDomain",
+        "source": "github",
+        "source_label": "GitHub",
+        "tags": [],
+        "stars": 0,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 71.0,
+        "id": "818ee4982bae"
+      },
+      {
+        "title": "OpenMOSS/MOSS-TTS",
+        "summary": "MOSS‑TTS Family is an open‑source speech and sound generation model family from MOSI.AI and the OpenMOSS team. It is designed for high‑fidelity, high‑expressiveness, and complex real‑world scenarios, covering stable long‑form speech, multi‑speaker dialogue, voice/character design, environmental soun",
+        "url": "https://github.com/OpenMOSS/MOSS-TTS",
+        "source": "github",
+        "source_label": "GitHub",
+        "tags": [],
+        "stars": 0,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 71.0,
+        "id": "ff1793e819a2"
+      },
+      {
+        "title": "Gemini Omni",
+        "summary": "323 points, 146 comments",
+        "url": "https://deepmind.google/models/gemini-omni/",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [],
+        "stars": 323,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 71.0,
+        "id": "53177cd43188"
+      },
+      {
+        "title": "The sigmoids won't save you",
+        "summary": "308 points, 286 comments",
+        "url": "https://www.astralcodexten.com/p/the-sigmoids-wont-save-you",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [],
+        "stars": 308,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 70.7,
+        "id": "7758323760cf"
+      },
+      {
+        "title": "The four-day workweek in Australia: insights from early adopters of 100:80:100",
+        "summary": "256 points, 256 comments",
+        "url": "https://scienceaim.com/australia-just-proved-the-four-day-work-week-works-here-is-what-the-data-actually-says/",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [],
+        "stars": 256,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 69.8,
+        "id": "7d8f695101e4"
+      },
+      {
+        "title": "Show HN: Anki AI Utils",
+        "summary": "253 points, 43 comments",
+        "url": "https://github.com/thiswillbeyourgithub/AnkiAIUtils",
+        "source": "hackernews",
+        "source_label": "Hacker News",
+        "tags": [],
+        "stars": 253,
+        "date": "2026-05-29",
+        "authors": "",
+        "language": "en",
+        "hot_score": 0,
+        "learning_score": 69.7,
+        "id": "874c5fc88992"
+      }
+    ]
+  },
   "2026-05-27": {
     "date": "2026-05-27",
     "total": 29,
