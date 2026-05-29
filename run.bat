@@ -24,7 +24,10 @@ if errorlevel 1 (
 
 echo.
 echo [2/3] Committing changes...
-git add data/
+git add docs/data/
+git config http.proxy http://127.0.0.1:7990
+git config https.proxy http://127.0.0.1:7990
+git config http.sslBackend openssl
 git commit -m "Daily update: %date%"
 
 echo.
